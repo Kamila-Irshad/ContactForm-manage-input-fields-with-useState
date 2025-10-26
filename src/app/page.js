@@ -1,9 +1,8 @@
-import Image from "next/image";
-
+import Form from "@/Components/Form";
 export default function Home() {
   return (
   <>
-  <h1>hi</h1>
+  <Form></Form>
   </>
   );
 }
