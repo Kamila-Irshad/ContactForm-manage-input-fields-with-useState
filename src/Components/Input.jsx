@@ -1,7 +1,9 @@
-const Input = ({className,type}) =>{
+const Input = ({className,type,ref}) =>{
     return(
         <>
-        <input type={type} className={`${className}  p-4 rounded shadow-xl/30`} />
+        <input 
+        ref={ref}
+        type={type} className={`${className}  p-4 rounded shadow-xl/30`} />
         </>
     )
 }
