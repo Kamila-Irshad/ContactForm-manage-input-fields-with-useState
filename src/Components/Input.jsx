@@ -1,7 +1,7 @@
-const Input = () =>{
+const Input = ({className,type}) =>{
     return(
         <>
-        <input type="text" className="bg-gray-600" />
+        <input type={type} className={`${className} border p-4`} />
         </>
     )
 }
