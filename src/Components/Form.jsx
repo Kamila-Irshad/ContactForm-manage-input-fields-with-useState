@@ -8,7 +8,10 @@ const Form = () => {
     event.preventDefault();
     if (inputRef.current.value.trim() === "") {
       alert("please fill in the blank ");
-    } else ('submitted')
+    } else{
+      ('submitted')
+    }
+    
   };
 
   return (
